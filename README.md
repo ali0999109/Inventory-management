@@ -10,7 +10,7 @@ https://code-projects.org/inventory-management-in-php-with-source-code/
 /Inventory-Management/view/registration.php
 
 ## Description:
-Submitting a simple <script>alert(3)</script> xss payload in the your name section leads to a stored xss vulnerability after logging into the account and also when clicking on Myinventory,Products & users..
+Submitting a simple <script>alert(3)</script> xss payload in the your name section leads to a reflected xss vulnerability after logging into the account and also when clicking on Myinventory,Products & users..
 
 POC
 
