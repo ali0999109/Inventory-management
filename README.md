@@ -10,7 +10,7 @@ https://code-projects.org/inventory-management-in-php-with-source-code/
 /Inventory-Management/view/registration.php
 
 ## Description:
-Submitting a simple <script>alert(3)</script> xss payload in the your name section leads to a reflected xss vulnerability after logging into the account and also when clicking on Myinventory,Products & users..
+A cross-site scripting (XSS) vulnerability has been identified in the application. Specifically, submitting the payload <script>alert(3)</script> in the "Your Name" field results in XSS execution after logging into the account. This vulnerability is also present when interacting with the "My Inventory," "Products," and "Users" sections.
 
 POC
 
